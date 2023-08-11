@@ -4,13 +4,13 @@ y=2
 z=3
 if x>y>z:
  print(x)
-if z>y>x:
+elif z>y>x:
  print(z)
-if y>x>z:
+elif y>x>z:
  print(y)
-if x>z>y:
+elif x>z>y:
  print(x)
-if z>x>y: 
+elif z>x>y: 
  print(z)
-if y>z>x:
+elif y>z>x:
  print(y)
